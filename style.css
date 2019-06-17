@@ -107,12 +107,11 @@ body {
     
     .ti-title {
         font-size: 40px;
-        margin-top: -10px;
+        line-height: 40px;
     }
 
     .ti-sub {
         font-size: 30px;
-        margin-top: -20px;
     }
     
     .ti-intro {
@@ -125,6 +124,10 @@ body {
     
     .ti-card-hr {
         max-width: 230px;
+    }
+    
+    .ti-card-location {
+        font-size: 14px;
     }
     
     .ti-card-copy {
