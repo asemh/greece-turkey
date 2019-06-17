@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F6F6F6;
+}
+
+.ti-jumbotron {
+    background-image:
+        linear-gradient(
+                     rgba(20,20,20, .4), 
+                     rgba(20,20,20, .4)),
+        url(https://travel-img.s3.amazonaws.com/2019-06-16--15607357086027hero-image-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    height: 800px;
+}
+
+.ti-hr {
+    background: #FFF;
+    height: 6px;
+    max-width: 730px;
+    width: 100%;
+}
+
+.ti-title {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #FFF;
+}
+
+.ti-sub {
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.ti-intro-pull {
+    margin-top: -70px;
+}
+
+.ti-intro {
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.ti-intro.ti-card {
+    font-weight: 500;
+}
+
+.ti-intro-sub {
+    font-size: 16px;
+    color: #5D5D5D;
+}
+
+.ti-image {
+    object-fit: cover;
+    height: 205px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.ti-card-date {
+    font-size: 16px;
+    color: #5D5D5D;
+    margin-left: 26px;
+}
+
+.ti-card-hr {
+    max-width: 262px;
+    width: 100%;
+    background: #FFF;
+}
+
+.ti-card-location {
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+}
+
+.ti-card-copy {
+    font-size: 14px;
+    color: #5D5D5D;
+    margin-left: 22px;
+    padding-right: 5px;
+}
+
+.ti-part {
+    font-size: 16px;
+    color: #B7B7B7;
+}
+
+.ti-card-custom {
+    height: 198px;
+}
+
+@media only screen and (max-width: 768px) {   
+    
+    .ti-jumbotron {
+        height: 450px;
+    }
+    
+    .ti-hr {
+        height: 3px;
+    }
+    
+    .ti-title {
+        font-size: 40px;
+        margin-top: -10px;
+    }
+
+    .ti-sub {
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    
+    .ti-intro {
+        font-size: 16px;
+    }
+    
+    .ti-image {
+        height: 180px;
+    }
+    
+    .ti-card-hr {
+        max-width: 230px;
+    }
+    
+    .ti-card-copy {
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    
+    .ti-card-custom {
+        height: 180px;
+    }
+
+}
