@@ -45,6 +45,16 @@ body {
     color: #474747;
 }
 
+.ti-hover {
+    transition: transform .2s;
+}
+
+.ti-hover:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+} 
+
 .ti-intro.ti-card {
     font-weight: 500;
 }
